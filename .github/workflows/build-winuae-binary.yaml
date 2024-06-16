@@ -25,7 +25,7 @@ env:
   SOLUTION_FILE_PATH: od-win32\\winuae_msvc15
 
 jobs:
-  Build-WinUAE-${{ inputs.Platform }}-${{ inputs.Configuration }}-binary:
+  Build-WinUAE-binary:
     runs-on: windows-latest
 
     steps:
